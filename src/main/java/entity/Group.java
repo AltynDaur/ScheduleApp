@@ -15,8 +15,6 @@ public class Group {
     private String name;
     @ManyToOne
     private Chair chair;
-    @OneToMany
-    private List<Student> students;
 
     public long getId() {
         return id;

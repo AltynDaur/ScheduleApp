@@ -17,8 +17,7 @@ public class Teacher {
     private String lastName;
     @ManyToOne
     private Chair chair;
-    @OneToMany
-    private List<Subject> subjects;
+
 
     public long getId() {
         return id;
@@ -52,11 +51,5 @@ public class Teacher {
         this.chair = chair;
     }
 
-    public List<Subject> getSubjects() {
-        return subjects;
-    }
 
-    public void setSubjects(List<Subject> subjects) {
-        this.subjects = subjects;
-    }
 }
