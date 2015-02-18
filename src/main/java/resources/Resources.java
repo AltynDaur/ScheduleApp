@@ -5,7 +5,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
 public class Resources {
-    @PersistenceContext(unitName = "Schedule")
+    @PersistenceContext(unitName = "ScheduleEntities")
     @Produces
     private EntityManager entityManager;
 }

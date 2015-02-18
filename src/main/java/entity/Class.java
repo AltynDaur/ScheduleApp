@@ -12,7 +12,7 @@ public class Class {
     private long id;
     @ManyToOne
     private ClassDay classDay;
-    @ManyToMany
+    @ManyToOne
     private Group group;
     private LocalTime localTime;
     @ManyToOne
